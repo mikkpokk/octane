@@ -1,6 +1,42 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/octane/compare/v2.9.1...2.x)
+## [Unreleased](https://github.com/laravel/octane/compare/v2.12.3...2.x)
+
+## [v2.12.3](https://github.com/laravel/octane/compare/v2.12.2...v2.12.3) - 2025-09-23
+
+* Replace Octane::writeError with die statements by [@7amoood](https://github.com/7amoood) in https://github.com/laravel/octane/pull/1057
+* Advance worker initialization in frankenphp-worker by [@sy-records](https://github.com/sy-records) in https://github.com/laravel/octane/pull/1059
+
+## [v2.12.2](https://github.com/laravel/octane/compare/v2.12.1...v2.12.2) - 2025-09-07
+
+* FrankenPHP: show worker startup errors if `APP_DEBUG=true` by [@AlliBalliBaba](https://github.com/AlliBalliBaba) in https://github.com/laravel/octane/pull/1055
+
+## [v2.12.1](https://github.com/laravel/octane/compare/v2.12.0...v2.12.1) - 2025-07-25
+
+* Fix getting clear_opcache config failures by [@sy-records](https://github.com/sy-records) in https://github.com/laravel/octane/pull/1037
+* [2.x] Fix resolving `StreamResponse` callback by [@crynobone](https://github.com/crynobone) in https://github.com/laravel/octane/pull/1042
+* Fix FlushUploadedFiles listener by [@eldario](https://github.com/eldario) in https://github.com/laravel/octane/pull/1044
+
+## [v2.12.0](https://github.com/laravel/octane/compare/v2.11.0...v2.12.0) - 2025-07-18
+
+* Add configurable opcache clearing and static file serving options by [@hughcube](https://github.com/hughcube) in https://github.com/laravel/octane/pull/1035
+
+## [v2.11.0](https://github.com/laravel/octane/compare/v2.10.0...v2.11.0) - 2025-06-28
+
+* Use FrankenPHP's built-in file watcher by [@kohenkatz](https://github.com/kohenkatz) in https://github.com/laravel/octane/pull/971
+
+## [v2.10.0](https://github.com/laravel/octane/compare/v2.9.3...v2.10.0) - 2025-06-16
+
+* Allow configuring max workers, requests via config by [@glensc](https://github.com/glensc) in https://github.com/laravel/octane/pull/1028
+
+## [v2.9.3](https://github.com/laravel/octane/compare/v2.9.2...v2.9.3) - 2025-05-14
+
+* Use null coalescing operator for vendor directory assignment by [@sy-records](https://github.com/sy-records) in https://github.com/laravel/octane/pull/1027
+
+## [v2.9.2](https://github.com/laravel/octane/compare/v2.9.1...v2.9.2) - 2025-05-05
+
+* Fix argument in RoadRunner process reset command by [@sy-records](https://github.com/sy-records) in https://github.com/laravel/octane/pull/1023
+* Allows run server with composer vendor out of application by [@unidevio](https://github.com/unidevio) in https://github.com/laravel/octane/pull/1025
 
 ## [v2.9.1](https://github.com/laravel/octane/compare/v2.9.0...v2.9.1) - 2025-04-13
 
